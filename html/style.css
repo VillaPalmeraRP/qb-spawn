@@ -9,7 +9,9 @@
     position: absolute;
     top: 10vh;
     left: 10vh;
-    background-color: rgb(23 23 23 / 80%);
+    box-shadow: 1px 1px 20px 1px blue;
+    background-color: #000000;
+    /* background-color: rgb(23 23 23 / 80%); */
     border-radius: .8vh;
     padding: 30px;
     cursor: default;
@@ -34,16 +36,20 @@
 }
 
 .location:hover {
-    background-color: #dc143c;
+    box-shadow: 1px 1px 20px 1px blue;
+    background-color: #000000;
+    /* background-color: #dc143c; */
     transition: 0.2s;
 }
 
 .selected {
-    background-color: #dc143c;
+    background-color: #000000;
 }
 
 .submit-spawn {
-    background-color: #28a745;
+    box-shadow: 1px 1px 20px 1px green;
+    background-color: #000000;
+    /* background-color: #28a745; */
     width: 28vh;
     height: 4.5vh;
     margin-bottom: .75vh;
